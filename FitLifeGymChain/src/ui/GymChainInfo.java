@@ -24,10 +24,8 @@ public class GymChainInfo {
     public static final String JAMES_MEMBER_NAME = "James";
     public static final String MICHELA_MEMBER_NAME = "Michela";
 
-    //TODO 1: assign a different value to the constant below
-    public static final String YOUR_GYM_NAME = "Your Gym";
-    //TODO 1: assign a different value to the constant below
-    public static final String YOUR_MEMBER_NAME = "Your Name";
+    public static final String YOUR_GYM_NAME = "Swole Town";
+    public static final String YOUR_MEMBER_NAME = "Mister Swole";
 
     public static void main(String[] args) {
         GymChain chain = new GymChain();
