@@ -98,7 +98,10 @@ public class InfoManager {
         System.out.println("All members registered for " + fc.getClassName() + ": ");
         List<Member> memberList = fc.getMembersRegistered();
 
-        //TODO 7: write a foreach loop that prints out the name of each member in memberList
+        for (Member m: memberList)
+        {
+            System.out.println(m.getName());
+        }
 
     }
 
